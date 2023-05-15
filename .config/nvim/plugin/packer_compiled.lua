@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/luana/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
     url = "https://github.com/akinsho/bufferline.nvim"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/home/luana/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/luana/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -98,6 +103,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/luana/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["go.nvim"] = {
+    loaded = true,
+    path = "/home/luana/.local/share/nvim/site/pack/packer/start/go.nvim",
+    url = "https://github.com/ray-x/go.nvim"
+  },
+  ["guihua.lua"] = {
+    loaded = true,
+    path = "/home/luana/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -133,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/luana/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-test"] = {
+    loaded = true,
+    path = "/home/luana/.local/share/nvim/site/pack/packer/start/nvim-test",
+    url = "https://github.com/klen/nvim-test"
   },
   ["nvim-treesitter"] = {
     loaded = true,

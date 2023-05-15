@@ -29,7 +29,7 @@ end, { desc = '[/] Fuzzily search in current buffer' })
 
 vim.api.nvim_set_keymap(
     "n",
-    "<space>fb",
+    "<leader>pv",
     ":Telescope file_browser path=%:p:h select_buffer=true<cr>",
     { noremap = true }
 )

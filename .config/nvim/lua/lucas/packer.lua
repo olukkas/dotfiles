@@ -13,9 +13,10 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-
-    -- Using Packer
+    -- rose-pine theme
     use({ 'rose-pine/neovim', as = 'rose-pine' })
+
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
     use('mbbill/undotree')
@@ -60,8 +61,16 @@ return require('packer').startup(function(use)
     -- icons
     use 'nvim-tree/nvim-web-devicons'
 
+    -- tabs
     use { 'akinsho/bufferline.nvim', requires = 'nvim-tree/nvim-web-devicons' }
 
     --File browsing
     use 'nvim-telescope/telescope-file-browser.nvim'
+
+    -- run tests
+    use "klen/nvim-test"
+
+    -- go
+    use 'ray-x/go.nvim'
+    use 'ray-x/guihua.lua'
 end)
